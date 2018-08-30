@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>About</title>
+		<link rel="stylesheet" type="text/css" href="../CSS/template.css">
+		<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/2/2e/Processing_3_logo.png" type="image/x-icon"/>
+		<link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/2/2e/Processing_3_logo.png" type="image/x-icon"/>
+		<div class="topnav">
+			<a href="../index.html">Home</a>
+			<a href="Games.html">Games</a>
+			<a href="Songs.html">Country Playlist</a>
+			<a class="active">About</a>
+			<a href="../DailyWork">Daily Work</a>
+		</div>
+		
+	</head>
+	
+	<body>
+				<label id="togS" class="switch">
+			<input type="checkbox" id="toggle" onclick="toggle()">
+			<span class="slider round"></span>
+		</label>
+		<h1>About this site</h1>
+		<br>
+		<p>This site is made by Ryan and is for mostly the use of Ryan.</p>
+		
+	</body>
+	<script>function toggle() {var checkBox = document.getElementById("toggle");var text = document.getElementById("text");if(checkBox.checked == true){document.title="Google";document.querySelector("link[rel='shortcut icon']").href = "https://www.google.com/images/branding/product/ico/googleg_lodp.ico";document.querySelector("link[rel*='icon']").href = "https://www.google.com/images/branding/product/ico/googleg_lodp.ico";}else{document.title="About";document.querySelector("link[rel='shortcut icon']").href="https://upload.wikimedia.org/wikipedia/commons/2/2e/Processing_3_logo.png";document.querySelector("link[rel*='icon']").href = "https://upload.wikimedia.org/wikipedia/commons/2/2e/Processing_3_logo.png";}}</script>
+</html>
