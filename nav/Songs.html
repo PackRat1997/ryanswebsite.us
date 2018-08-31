@@ -1,0 +1,32 @@
+		<title>Country Playlist</title>
+		<link rel="stylesheet" type="text/css" href="../CSS/template.css">
+		<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/2/2e/Processing_3_logo.png" type="image/x-icon"/>
+		<link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/2/2e/Processing_3_logo.png" type="image/x-icon"/>
+		
+		<div class="topnav">
+			<a href="../index.html">Home</a>
+			<a href="Games.html">Games</a>
+			<a class="active">Country Playlist</a>
+			<a href="About.html">About</a>
+			<a href="../DailyWork">Daily Work</a>
+		</div>
+		
+	</head>
+
+	<body>
+
+		<label id="togS" class="switch">
+			<input type="checkbox" id="toggle" onclick="toggle()">
+			<span class="slider round"></span>
+		</label>
+		<h1>This is Ryans Playlist!</h1>
+		<center><iframe src="https://open.spotify.com/embed/user/12173933648/playlist/0StaIsBDpQz8ONBT7HmKGG" width="75%" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></center>
+		
+
+<script>function toggle() {var checkBox = document.getElementById("toggle");var text = document.getElementById("text");if(checkBox.checked == true){document.title="Google";document.querySelector("link[rel='shortcut icon']").href = "https://www.google.com/images/branding/product/ico/googleg_lodp.ico";document.querySelector("link[rel*='icon']").href = "https://www.google.com/images/branding/product/ico/googleg_lodp.ico";}else{document.title="Country Playlist";document.querySelector("link[rel='shortcut icon']").href="https://upload.wikimedia.org/wikipedia/commons/2/2e/Processing_3_logo.png";document.querySelector("link[rel*='icon']").href = "https://upload.wikimedia.org/wikipedia/commons/2/2e/Processing_3_logo.png";}}</script>
+		
+		
+		
+		
+	</body>
+</html>
