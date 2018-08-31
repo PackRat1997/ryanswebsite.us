@@ -33,24 +33,25 @@
 			<input type="checkbox" id="toggle" onclick="toggle()">
 			<span class="slider round"></span>
 		</label>
-			<h1 id="date"></h1>
-
+		
+		<h1 id="date"></h1>
 
 		<h1>Welcome to Ryans Website!</h1>
-		<p>Here you can find all of Ryans current creations, this site is new so all of the older programs cannot be added unless converted</p><br><br>
+		<p>Here you can find all of Ryans current creations, this site is new so all of the older programs cannot be added unless converted</p>
+		
+		<br>
+		<br>
 		
 		<p>School Forms: <a href="download" target="_schoolDownload">Downloads</a></p>
 		
-<script>function toggle() {var checkBox = document.getElementById("toggle");var text = document.getElementById("text");if(checkBox.checked == true){document.title="Google";document.querySelector("link[rel='shortcut icon']").href = "https://www.google.com/images/branding/product/ico/googleg_lodp.ico";document.querySelector("link[rel*='icon']").href = "https://www.google.com/images/branding/product/ico/googleg_lodp.ico";}else{document.title="Ryans Website";document.querySelector("link[rel='shortcut icon']").href="https://upload.wikimedia.org/wikipedia/commons/2/2e/Processing_3_logo.png";document.querySelector("link[rel*='icon']").href = "https://upload.wikimedia.org/wikipedia/commons/2/2e/Processing_3_logo.png";}}
+		<script>
+			function toggle() {var checkBox = document.getElementById("toggle");var text = document.getElementById("text");if(checkBox.checked == true){document.title="Google";document.querySelector("link[rel='shortcut icon']").href = "https://www.google.com/images/branding/product/ico/googleg_lodp.ico";document.querySelector("link[rel*='icon']").href = "https://www.google.com/images/branding/product/ico/googleg_lodp.ico";}else{document.title="Ryans Website";document.querySelector("link[rel='shortcut icon']").href="https://upload.wikimedia.org/wikipedia/commons/2/2e/Processing_3_logo.png";document.querySelector("link[rel*='icon']").href = "https://upload.wikimedia.org/wikipedia/commons/2/2e/Processing_3_logo.png";}}
 
 
 
-var d = new Date();
-document.getElementById("date").innerHTML = d.toDateString();
-
-
-
-</script>
+			var d = new Date();
+			document.getElementById("date").innerHTML = d.toDateString();
+		</script>
 		
 		
 		
