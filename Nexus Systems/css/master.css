@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+body {
+
+  /** Background image **/
+  background-image: url("../img/background.jpg");
+  color: white;
+  text-align: center;
+  font-family: 'Patua One';
+  font-size: 155%;
+
+}
+
+.topnav {
+
+    background-image: url("../img/navbar.jpg");
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.topnav a {
+
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.topnav a:hover {
+
+    background-color: #ddd;
+    color: black;
+
+}
+
+.selected {
+
+    background-color: #4CAF50;
+    color: white;
+
+}
+
+.topnav .icon {
+
+    display: none;
+
+}
+
+.text-background {
+
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/10/Cyan-Wallpaper-HD-Desktop.jpg");
+  background-size: cover;
+
+}
