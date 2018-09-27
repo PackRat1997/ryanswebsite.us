@@ -11,7 +11,11 @@ h1, h2, h3, p {
   font-size: 320%;
   font-family: 'Lato';
   color: white;
-
+}
+h4, h5 {
+  font-family: 'Lato';
+  color: white;
+  font-size: 167%;
 }
 .space {
   height: 120%;
