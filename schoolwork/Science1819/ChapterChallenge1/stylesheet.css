@@ -1,11 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Chicle|Lato');
 body{
-  y-overflow: hidden;
-  text-align: center;
+
   background-image: url("img/background1.jpg");
+  background-attachment: fixed;
   background-position: fixed;
-  background-size: cover;
+
+  text-align: center;
+}
+h1, h2, h3, p {
+  font-size: 320%;
+  font-family: 'Lato';
+  color: white;
+
+}
+.space {
+  height: 120%;
+}
+html, body {
+  height: 100%;
+  width: 99%
+}
+.noStyle {
+  text-decoration: none;
+  color: white;
 }
 #title {
-  font-family: cursive;
+  font-family: 'Lato';
   color: white;
+}
+.previous {
+  width:5%;
+  height: 100%;
+}
+.next {
+  width: 5%;
+  height: 100%;
+
+}
+.buttonA {
+  background-color: #465b57;
+  font-size: 300%;
+  border-radius: 20px;
+  color: white;
+  font-family: 'Lato';
+  text-align: center;
+}
+.buttonA:hover {
+  cursor: grab;
+}
+.buttonA:active {
+  cursor: grabbing;
+}
+.buttonB {
+  background-color: #465b57;
+  font-size: 180%;
+  border-radius: 20px;
+  color: white;
+  font-family: 'Lato';
+  text-align: center;
+}
+.buttonB:hover {
+  cursor: grab;
+}
+.buttonB:active {
+  cursor: grabbing;
 }
