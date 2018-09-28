@@ -1,0 +1,12 @@
+body {
+  background-color: darkSlateGray;
+  text-align: center;
+  font-family: fantasy;
+
+}
+button {
+  border-radius: 8px;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+}
